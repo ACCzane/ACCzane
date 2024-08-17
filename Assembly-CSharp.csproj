@@ -71,6 +71,7 @@
     <Compile Include="Assets/Scripts/Utils/DestroySelfOnContact.cs" />
     <Compile Include="Assets/Scripts/Core/Player/ProjectileLauncher.cs" />
     <Compile Include="Assets/Scripts/Utils/LifeTime.cs" />
+    <Compile Include="Assets/Scripts/Utils/SpawnOnDestroy.cs" />
     <Compile Include="Assets/Scripts/Core/Player/PlayerMovement.cs" />
     <Compile Include="Assets/Scripts/Core/Combat/Health.cs" />
     <Compile Include="Assets/Scripts/Input/InputReader.cs" />

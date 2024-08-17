@@ -41,11 +41,14 @@ TagManager:
   - name: BackGround
     uniqueID: 1105823677
     locked: 0
-  - name: Coin
-    uniqueID: 2697511483
-    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Terrain
+    uniqueID: 3022142229
+    locked: 0
+  - name: Coin
+    uniqueID: 2697511483
     locked: 0
   - name: Player
     uniqueID: 2532034927
