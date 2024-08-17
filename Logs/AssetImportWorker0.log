@@ -698,3 +698,43 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1473.533953 seconds.
+  path: Assets/NetworkPrefabsList.asset
+  artifactKey: Guid(cd9640b0c159b41558d422e549135827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NetworkPrefabsList.asset using Guid(cd9640b0c159b41558d422e549135827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d9bbbb806d86db77c47d7114aed36d8') in 0.026724 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 60.455596 seconds.
+  path: Assets/Prefabs/Terrain
+  artifactKey: Guid(3ff1c22f1a2f344fd95d5ee4490f19c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Terrain using Guid(3ff1c22f1a2f344fd95d5ee4490f19c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '159e420aff5d4601839e5af88d7fd804') in 0.000354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.972055 seconds.
+  path: Assets/Prefabs/Terrain/Rocks
+  artifactKey: Guid(1e06087d4507a4721ab8c4870e188c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Terrain/Rocks using Guid(1e06087d4507a4721ab8c4870e188c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdd055dfa330249bea91dda0b1b7e74f') in 0.000448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.199041 seconds.
+  path: Assets/Prefabs/Terrain/Rocks/Individual
+  artifactKey: Guid(860d799a7b9b8434dae0dbbc1d028ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Terrain/Rocks/Individual using Guid(860d799a7b9b8434dae0dbbc1d028ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53f5adacd63f6051ae2b73bafe219204') in 0.000380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.677233 seconds.
+  path: Assets/Prefabs/Terrain/Rocks/Individual/Rock_Dark_01.prefab
+  artifactKey: Guid(d6817cb824fe247199bf638033cceb7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Terrain/Rocks/Individual/Rock_Dark_01.prefab using Guid(d6817cb824fe247199bf638033cceb7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ba3d96ef0dba9c5412ad32abefc3dd7') in 0.110755 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
