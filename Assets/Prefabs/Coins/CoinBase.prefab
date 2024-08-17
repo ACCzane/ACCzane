@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: -3250792408629026864}
   - component: {fileID: 7752063985025507300}
   - component: {fileID: 2494241394674671647}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: CoinBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -134,7 +134,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GlobalObjectIdHash: 2930351909
+  GlobalObjectIdHash: 458426944
   AlwaysReplicateAsRoot: 0
   SynchronizeTransform: 1
   ActiveSceneSynchronization: 0
