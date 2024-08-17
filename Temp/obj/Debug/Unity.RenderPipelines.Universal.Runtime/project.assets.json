@@ -1,0 +1,182 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETStandard,Version=v2.1": {
+      "Unity.RenderPipeline.Universal.ShaderLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Unity.RenderPipelines.Core.Runtime": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Unity.RenderPipeline.Universal.ShaderLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.RenderPipeline.Universal.ShaderLibrary.dll": {}
+        }
+      },
+      "Unity.RenderPipelines.Core.Runtime/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Unity.RenderPipelines.Core.Runtime.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.RenderPipelines.Core.Runtime.dll": {}
+        }
+      },
+      "Unity.RenderPipelines.Universal.Config.Runtime/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Unity.RenderPipelines.Core.Runtime": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Unity.RenderPipelines.Universal.Config.Runtime.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.RenderPipelines.Universal.Config.Runtime.dll": {}
+        }
+      },
+      "UnityEditor.UI/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UnityEditor.UI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UnityEditor.UI.dll": {}
+        }
+      },
+      "UnityEngine.UI/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/UnityEngine.UI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UnityEngine.UI.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Unity.RenderPipeline.Universal.ShaderLibrary/1.0.0": {
+      "type": "project",
+      "path": "Unity.RenderPipeline.Universal.ShaderLibrary.csproj",
+      "msbuildProject": "Unity.RenderPipeline.Universal.ShaderLibrary.csproj"
+    },
+    "Unity.RenderPipelines.Core.Runtime/1.0.0": {
+      "type": "project",
+      "path": "Unity.RenderPipelines.Core.Runtime.csproj",
+      "msbuildProject": "Unity.RenderPipelines.Core.Runtime.csproj"
+    },
+    "Unity.RenderPipelines.Universal.Config.Runtime/1.0.0": {
+      "type": "project",
+      "path": "Unity.RenderPipelines.Universal.Config.Runtime.csproj",
+      "msbuildProject": "Unity.RenderPipelines.Universal.Config.Runtime.csproj"
+    },
+    "UnityEditor.UI/1.0.0": {
+      "type": "project",
+      "path": "UnityEditor.UI.csproj",
+      "msbuildProject": "UnityEditor.UI.csproj"
+    },
+    "UnityEngine.UI/1.0.0": {
+      "type": "project",
+      "path": "UnityEngine.UI.csproj",
+      "msbuildProject": "UnityEngine.UI.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETStandard,Version=v2.1": [
+      "Unity.RenderPipeline.Universal.ShaderLibrary >= 1.0.0",
+      "Unity.RenderPipelines.Core.Runtime >= 1.0.0",
+      "Unity.RenderPipelines.Universal.Config.Runtime >= 1.0.0",
+      "UnityEditor.UI >= 1.0.0",
+      "UnityEngine.UI >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/zeoxcine/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/zeoxcine/编程/Unity3DProjects/TankWorld/Unity.RenderPipelines.Universal.Runtime.csproj",
+      "projectName": "Unity.RenderPipelines.Universal.Runtime",
+      "projectPath": "/Users/zeoxcine/编程/Unity3DProjects/TankWorld/Unity.RenderPipelines.Universal.Runtime.csproj",
+      "packagesPath": "/Users/zeoxcine/.nuget/packages/",
+      "outputPath": "/Users/zeoxcine/编程/Unity3DProjects/TankWorld/Temp/obj/Debug/Unity.RenderPipelines.Universal.Runtime/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/zeoxcine/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netstandard2.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "projectReferences": {
+            "/Users/zeoxcine/编程/Unity3DProjects/TankWorld/Unity.RenderPipeline.Universal.ShaderLibrary.csproj": {
+              "projectPath": "/Users/zeoxcine/编程/Unity3DProjects/TankWorld/Unity.RenderPipeline.Universal.ShaderLibrary.csproj"
+            },
+            "/Users/zeoxcine/编程/Unity3DProjects/TankWorld/Unity.RenderPipelines.Core.Runtime.csproj": {
+              "projectPath": "/Users/zeoxcine/编程/Unity3DProjects/TankWorld/Unity.RenderPipelines.Core.Runtime.csproj"
+            },
+            "/Users/zeoxcine/编程/Unity3DProjects/TankWorld/Unity.RenderPipelines.Universal.Config.Runtime.csproj": {
+              "projectPath": "/Users/zeoxcine/编程/Unity3DProjects/TankWorld/Unity.RenderPipelines.Universal.Config.Runtime.csproj"
+            },
+            "/Users/zeoxcine/编程/Unity3DProjects/TankWorld/UnityEditor.UI.csproj": {
+              "projectPath": "/Users/zeoxcine/编程/Unity3DProjects/TankWorld/UnityEditor.UI.csproj"
+            },
+            "/Users/zeoxcine/编程/Unity3DProjects/TankWorld/UnityEngine.UI.csproj": {
+              "projectPath": "/Users/zeoxcine/编程/Unity3DProjects/TankWorld/UnityEngine.UI.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "netstandard2.1": {
+        "targetAlias": "netstandard2.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
