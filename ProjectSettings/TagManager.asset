@@ -41,6 +41,9 @@ TagManager:
   - name: BackGround
     uniqueID: 1105823677
     locked: 0
+  - name: Coin
+    uniqueID: 2697511483
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0

@@ -75,7 +75,8 @@
     <Compile Include="Assets/Scripts/Input/InputReader.cs" />
     <Compile Include="Assets/Scripts/Core/Player/PlayerAiming.cs" />
     <Compile Include="Assets/Scripts/Input/Controls.cs" />
-    <Compile Include="Assets/Scripts/Input/TestScript.cs" />
+    <Compile Include="Assets/Scripts/Core/Coins/RespawningCoin.cs" />
+    <Compile Include="Assets/Scripts/Core/Coins/Coin.cs" />
     <Compile Include="Assets/Scripts/Core/Combat/HealthDisplay.cs" />
   </ItemGroup>
   <ItemGroup>
