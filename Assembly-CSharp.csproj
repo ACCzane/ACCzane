@@ -65,6 +65,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/Scripts/ConnectionButtons.cs" />
+    <Compile Include="Assets/Scripts/UI/MainMenu.cs" />
     <Compile Include="Assets/Scripts/Utils/ClientNetworkTransform.cs" />
     <Compile Include="Assets/Scripts/Core/Coins/CoinSpawner.cs" />
     <Compile Include="Assets/Scripts/Core/Combat/DealDamageOnContact.cs" />

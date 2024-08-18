@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1512
     height: 826
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Game
   m_RootView: {fileID: 4}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -787,9 +787,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.5251217, y: -0.7790235, z: -0.121236175}
+    m_Target: {x: -6.078928, y: -14.878379, z: -0.37855488}
     speed: 2
-    m_Value: {x: 0.5251217, y: -0.7790235, z: -0.121236175}
+    m_Value: {x: -6.078928, y: -14.878379, z: -0.37855488}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -839,9 +839,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 13.5413265
+    m_Target: 39.27312
     speed: 2
-    m_Value: 13.5413265
+    m_Value: 39.27312
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1129,9 +1129,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 5698fffff2adffff90aeffff3eb1ffffb2d9ffff56daffff00ddffff16fbffff
+      m_SelectedIDs: b8910000
+      m_LastClickedID: 37304
+      m_ExpandedIDs: 9497feff3898feffe09afefff2bcffff16fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1147,7 +1147,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 2}
+        m_ClientGUIView: {fileID: 0}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -1200,7 +1200,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Art
+    - Assets/Prefabs/Coins
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1208,27 +1208,27 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Art
+  - Assets/Prefabs/Coins
   m_LastFoldersGridSize: -1
   m_LastProjectPath: "/Users/zeoxcine/\u7F16\u7A0B/Unity3DProjects/TankWorld"
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: d27a0000
-    m_LastClickedID: 31442
-    m_ExpandedIDs: 00000000b87a0000ba7a0000dc7a00007c8d0000
+    scrollPos: {x: 0, y: 14.199829}
+    m_SelectedIDs: 287b0000
+    m_LastClickedID: 31528
+    m_ExpandedIDs: 000000000a7b00000c7b00000e7b0000107b00002e7b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: TerrainPrefabs
-      m_OriginalName: TerrainPrefabs
+      m_Name: Combat
+      m_OriginalName: Combat
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 39488
+      m_UserData: 31830
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
@@ -1245,7 +1245,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 16680000
     m_LastClickedID: 26646
-    m_ExpandedIDs: 00000000b87a0000ba7a0000bc7a0000
+    m_ExpandedIDs: 000000000a7b00000c7b00000e7b0000107b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1297,7 +1297,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 113.08154}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 229
@@ -1342,7 +1342,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 216
+  m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
