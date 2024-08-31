@@ -44,11 +44,11 @@ public static class AuthenticationWrapper
                     AuthState = AuthState.Authenticated;
                     break;
                 }
-            }catch(AuthenticationException ex){
-                Debug.LogError(ex);
+            }catch(AuthenticationException authEx){
+                Debug.LogError(authEx);
                 AuthState = AuthState.Error;
-            }catch(RequestFailedException ex){
-                Debug.LogError(ex);
+            }catch(RequestFailedException requestEx){
+                Debug.LogError(requestEx);
                 AuthState = AuthState.Error;
             }
 
