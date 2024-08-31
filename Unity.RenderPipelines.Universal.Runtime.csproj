@@ -1119,18 +1119,12 @@
       <HintPath>/Applications/Unity/Hub/Editor/2022.3.19f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Mathematics">
-      <HintPath>Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Burst">
-      <HintPath>Library/ScriptAssemblies/Unity.Burst.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.csproj" />
     <ProjectReference Include="Unity.RenderPipeline.Universal.ShaderLibrary.csproj" />
+    <ProjectReference Include="Unity.Mathematics.csproj" />
+    <ProjectReference Include="Unity.Burst.csproj" />
     <ProjectReference Include="Unity.RenderPipelines.Universal.Config.Runtime.csproj" />
     <ProjectReference Include="UnityEditor.UI.csproj" />
     <ProjectReference Include="UnityEngine.UI.csproj" />
