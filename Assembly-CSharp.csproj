@@ -71,6 +71,7 @@
     <Compile Include="Assets/Scripts/Utils/ClientNetworkTransform.cs" />
     <Compile Include="Assets/Scripts/Core/Coins/CoinSpawner.cs" />
     <Compile Include="Assets/Scripts/Core/Combat/DealDamageOnContact.cs" />
+    <Compile Include="Assets/Scripts/UI/NameSelector.cs" />
     <Compile Include="Assets/Scripts/Utils/DestroySelfOnContact.cs" />
     <Compile Include="Assets/Scripts/Core/Player/ProjectileLauncher.cs" />
     <Compile Include="Assets/Scripts/Utils/LifeTime.cs" />
