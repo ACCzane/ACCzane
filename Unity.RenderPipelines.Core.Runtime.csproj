@@ -647,6 +647,10 @@
       <HintPath>Library/PackageCache/com.unity.nuget.mono-cecil@1.11.4/Mono.Cecil.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="websocket-sharp">
+      <HintPath>Library/PackageCache/com.unity.services.wire@1.2.6/Plugins/websocket-sharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="netstandard">
       <HintPath>/Applications/Unity/Hub/Editor/2022.3.19f1/Unity.app/Contents/NetStandard/ref/2.1.0/netstandard.dll</HintPath>
       <Private>False</Private>
