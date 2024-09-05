@@ -82,6 +82,7 @@
     <Compile Include="Assets/Scripts/Core/Player/PlayerMovement.cs" />
     <Compile Include="Assets/Scripts/Networking/Shared/UserData.cs" />
     <Compile Include="Assets/Scripts/Networking/Client/AuthenticationWrapper.cs" />
+    <Compile Include="Assets/Scripts/Networking/Client/NetworkClient.cs" />
     <Compile Include="Assets/Scripts/Core/Combat/Health.cs" />
     <Compile Include="Assets/Scripts/UI/LobbyItem.cs" />
     <Compile Include="Assets/Scripts/Input/InputReader.cs" />
