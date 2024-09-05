@@ -14,7 +14,6 @@ public static class AuthenticationWrapper
             return AuthState;
         }
 
-        //TODO:理解这里的Robust
         if(AuthState == AuthState.Authenticating){
             Debug.LogWarning("Already authenticating");
             await Authenticating();

@@ -75,10 +75,12 @@
     <Compile Include="Assets/Scripts/Utils/DestroySelfOnContact.cs" />
     <Compile Include="Assets/Scripts/Core/Player/ProjectileLauncher.cs" />
     <Compile Include="Assets/Scripts/Utils/LifeTime.cs" />
+    <Compile Include="Assets/Scripts/Networking/Server/NetworkServer.cs" />
     <Compile Include="Assets/Scripts/UI/LobbiesList.cs" />
     <Compile Include="Assets/Scripts/Networking/ApplicationController.cs" />
     <Compile Include="Assets/Scripts/Utils/SpawnOnDestroy.cs" />
     <Compile Include="Assets/Scripts/Core/Player/PlayerMovement.cs" />
+    <Compile Include="Assets/Scripts/Networking/Shared/UserData.cs" />
     <Compile Include="Assets/Scripts/Networking/Client/AuthenticationWrapper.cs" />
     <Compile Include="Assets/Scripts/Core/Combat/Health.cs" />
     <Compile Include="Assets/Scripts/UI/LobbyItem.cs" />
