@@ -133,8 +133,8 @@
     <Compile Include="Library/PackageCache/com.unity.services.core@1.13.0/Editor/Core/Environments/Client/Http/HttpClient.cs" />
     <Compile Include="Library/PackageCache/com.unity.services.core@1.13.0/Editor/Core/Environments/Client/Models/IdentityIOneOf.cs" />
     <Compile Include="Library/PackageCache/com.unity.services.core@1.13.0/Editor/Core/Environments/Client/Models/UnityCreateAddressRequest.cs" />
-    <Compile Include="Library/PackageCache/com.unity.services.core@1.13.0/Editor/Core/Environments/Client/Models/UnityProjectV1.cs" />
     <Compile Include="Library/PackageCache/com.unity.services.core@1.13.0/Editor/Core/Environments/Client/Models/UnityCreateEnvironmentRequest.cs" />
+    <Compile Include="Library/PackageCache/com.unity.services.core@1.13.0/Editor/Core/Environments/Client/Models/UnityProjectV1.cs" />
     <Compile Include="Library/PackageCache/com.unity.services.core@1.13.0/Editor/Core/Environments/Client/Models/UnityGetUserGuestProjects200Response.cs" />
     <Compile Include="Library/PackageCache/com.unity.services.core@1.13.0/Editor/Core/Environments/Client/Models/UnityEnvironmentV1.cs" />
     <Compile Include="Library/PackageCache/com.unity.services.core@1.13.0/Editor/Core/Environments/EnvironmentServiceRegistry.cs" />
@@ -503,6 +503,10 @@
       <HintPath>/Applications/Unity/Hub/Editor/2022.3.19f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="websocket-sharp">
+      <HintPath>Library/PackageCache/com.unity.services.wire@1.2.6/Plugins/websocket-sharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VisualScripting.YamlDotNet">
       <HintPath>Library/PackageCache/com.unity.visualscripting@1.9.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll</HintPath>
       <Private>False</Private>
@@ -545,10 +549,6 @@
     </Reference>
     <Reference Include="Mono.Cecil">
       <HintPath>Library/PackageCache/com.unity.nuget.mono-cecil@1.11.4/Mono.Cecil.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="websocket-sharp">
-      <HintPath>Library/PackageCache/com.unity.services.wire@1.2.6/Plugins/websocket-sharp.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="nunit.framework">

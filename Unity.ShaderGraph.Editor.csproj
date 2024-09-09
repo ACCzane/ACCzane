@@ -372,8 +372,8 @@
     <Compile Include="Library/PackageCache/com.unity.shadergraph@14.0.10/Editor/Drawing/Controllers/SGController.cs" />
     <Compile Include="Library/PackageCache/com.unity.shadergraph@14.0.10/Editor/Data/Nodes/Channel/SwizzleNode.cs" />
     <Compile Include="Library/PackageCache/com.unity.shadergraph@14.0.10/Editor/Data/Implementation/Edge.cs" />
-    <Compile Include="Library/PackageCache/com.unity.shadergraph@14.0.10/Editor/Generation/Enumerations/StructFieldOptions.cs" />
     <Compile Include="Library/PackageCache/com.unity.shadergraph@14.0.10/Editor/Data/Nodes/NormalMapSpace.cs" />
+    <Compile Include="Library/PackageCache/com.unity.shadergraph@14.0.10/Editor/Generation/Enumerations/StructFieldOptions.cs" />
     <Compile Include="Library/PackageCache/com.unity.shadergraph@14.0.10/Editor/Data/Nodes/Procedural/CheckerboardNode.cs" />
     <Compile Include="Library/PackageCache/com.unity.shadergraph@14.0.10/Editor/Data/Nodes/Input/Texture/Texture3DAssetNode.cs" />
     <Compile Include="Library/PackageCache/com.unity.shadergraph@14.0.10/Editor/Generation/Contexts/TargetPropertyGUIContext.cs" />
@@ -462,8 +462,8 @@
     <Compile Include="Library/PackageCache/com.unity.shadergraph@14.0.10/Editor/Generation/Processors/Generator.cs" />
     <Compile Include="Library/PackageCache/com.unity.shadergraph@14.0.10/Editor/Drawing/INodeModificationListener.cs" />
     <Compile Include="Library/PackageCache/com.unity.shadergraph@14.0.10/Editor/Data/Nodes/Math/Vector/SphereMaskNode.cs" />
-    <Compile Include="Library/PackageCache/com.unity.shadergraph@14.0.10/Editor/Data/Nodes/Input/Texture/SampleRawCubemapNode.cs" />
     <Compile Include="Library/PackageCache/com.unity.shadergraph@14.0.10/Editor/Drawing/Controls/ToggleControl.cs" />
+    <Compile Include="Library/PackageCache/com.unity.shadergraph@14.0.10/Editor/Data/Nodes/Input/Texture/SampleRawCubemapNode.cs" />
     <Compile Include="Library/PackageCache/com.unity.shadergraph@14.0.10/Editor/Data/Graphs/VirtualTextureShaderProperty.cs" />
     <Compile Include="Library/PackageCache/com.unity.shadergraph@14.0.10/Editor/Generation/Collections/KernelCollection.cs" />
     <Compile Include="Library/PackageCache/com.unity.shadergraph@14.0.10/Editor/Generation/Descriptors/IncludeDescriptor.cs" />
@@ -628,8 +628,8 @@
     <Compile Include="Library/PackageCache/com.unity.shadergraph@14.0.10/Editor/Data/Graphs/BooleanShaderProperty.cs" />
     <Compile Include="Library/PackageCache/com.unity.shadergraph@14.0.10/Editor/Data/Nodes/Input/Gradient/SampleGradientNode.cs" />
     <Compile Include="Library/PackageCache/com.unity.shadergraph@14.0.10/Editor/Generation/Targets/Fullscreen/FullscreenMetaData.cs" />
-    <Compile Include="Library/PackageCache/com.unity.shadergraph@14.0.10/Editor/Data/Util/FunctionRegistry.cs" />
     <Compile Include="Library/PackageCache/com.unity.shadergraph@14.0.10/Editor/Data/Nodes/Input/Geometry/TangentVectorNode.cs" />
+    <Compile Include="Library/PackageCache/com.unity.shadergraph@14.0.10/Editor/Data/Util/FunctionRegistry.cs" />
     <Compile Include="Library/PackageCache/com.unity.shadergraph@14.0.10/Editor/Data/Nodes/Input/Matrix/TransformationMatrixNode.cs" />
     <Compile Include="Library/PackageCache/com.unity.shadergraph@14.0.10/Editor/Data/Graphs/TangentMaterialSlot.cs" />
     <Compile Include="Library/PackageCache/com.unity.shadergraph@14.0.10/Editor/Data/Nodes/Math/Interpolation/InverseLerpNode.cs" />
@@ -1209,6 +1209,10 @@
       <HintPath>/Applications/Unity/Hub/Editor/2022.3.19f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="websocket-sharp">
+      <HintPath>Library/PackageCache/com.unity.services.wire@1.2.6/Plugins/websocket-sharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VisualScripting.YamlDotNet">
       <HintPath>Library/PackageCache/com.unity.visualscripting@1.9.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll</HintPath>
       <Private>False</Private>
@@ -1251,10 +1255,6 @@
     </Reference>
     <Reference Include="Mono.Cecil">
       <HintPath>Library/PackageCache/com.unity.nuget.mono-cecil@1.11.4/Mono.Cecil.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="websocket-sharp">
-      <HintPath>Library/PackageCache/com.unity.services.wire@1.2.6/Plugins/websocket-sharp.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="nunit.framework">
