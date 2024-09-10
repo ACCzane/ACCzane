@@ -21,7 +21,8 @@ public class HostGameManager : IDisposable
     private const int maxConnections = 20;
     private const string gameSceneName = "Game";
 
-    private NetworkServer networkServer;
+    public NetworkServer NetworkServer{get; private set;}
+    
     public async Task StartHostAsync(){
         try{
             allocation = await Relay.Instance.CreateAllocationAsync(maxConnections);
@@ -69,7 +70,7 @@ public class HostGameManager : IDisposable
             return;
         }
 
-        networkServer = new NetworkServer(NetworkManager.Singleton);
+        NetworkServer = new NetworkServer(NetworkManager.Singleton);
 
         UserData userData = new UserData{
             userName = PlayerPrefs.GetString(NameSelector.PlayerNameKey, "Missing Name"),
@@ -110,6 +111,6 @@ public class HostGameManager : IDisposable
             lobbyId = string.Empty;
         }
 
-        networkServer?.Dispose();
+        NetworkServer?.Dispose();
     }
 }
